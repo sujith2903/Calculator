@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width:450px;
+    height: 700px;
+    align-items: center;
+    padding: 20px;
+    align-items:  space-evenly;
+    background-color: rgb(95, 97, 96);
+    border-radius: 5px;
+    gap:10px;
+    
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 450px;
+  margin-top: 50px;
+  gap:15px;
+
+
+}
+
+.inputs{
+    display: flex;
+    gap:10px;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    width:450px;
+    height:150px;
+    margin-top: 45px;
+    background-color: rgb(189, 230, 223);
+    border-radius: 5px;
+    font-family: 'Gugi';
+}
+
+.top-right{
+    display: flex;
+    justify-content: right;
+    margin-top: 5px;
+    font-size: 35px;
+}
+
+.display4{
+    display: flex;
+    flex:1;
+    justify-content: right;
+    margin-top: 35px;
+    font-size: 50px;
+}
+
+.delclear{
+    display: flex;
+    justify-content: space-between;
+    gap:5px;
+}
+
+.values{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    gap:10px;
+    margin-bottom: 0px;
+}
+
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+
+}
+
+.symbols{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+button{
+    width :100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: #5b5f64;
+    color:white;
+    border-radius: 5px;
+    border: 1px solid grey;
+    text-align: center;
+}
