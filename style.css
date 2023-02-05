@@ -45,13 +45,17 @@ body{
     background-color: rgb(189, 230, 223);
     border-radius: 5px;
     font-family: 'Gugi';
+    overflow-x: scroll;
+    
+    
 }
 
 .top-right{
     display: flex;
     justify-content: right;
     margin-top: 5px;
-    font-size: 35px;
+    font-size: 35px;.
+    
 }
 
 .display4{
